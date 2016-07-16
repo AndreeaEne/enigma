@@ -1,0 +1,91 @@
+[
+  {
+   "title": "Just Enough Time to Deliver the Message",
+   "desc": "Justin Case and Auntie Bellum are fellow con artists who deliver coded messages to each other to communicate. Recently Auntie Bellum was put in jail for stealing a rare and expensive diamond. Only a few days after this, Justin Case sent her a friendly letter asking her how she was. On the inside of the envelope of the letter, he hid a code. Yesterday, Auntie Bellum escaped and left the envelope and the letter inside the jail cell. The police did some research and found the code on the inside of the envelope, but they haven't been able to crack it. Could you help the police find out what the message is?\nThis is the code:\nllwatchawtfeclocklnisksundialcirbetimersool",
+   "answer": "The message was \"loose bricks in left wall.\" The message was put backward with words related to time in between.\nThis is how the message looks when separated:\nll watch awtfe clock lnisk sundial cirbe timer sool\nIf you take out watch, clock, sundial, and timer, this is what is left:\nllawtfelniskcirbesool\nLook at this backwards and this is what you have:\nloose bricks in left wall\nAuntie Bellum took out the bricks and escaped in the night. Then, she put the bricks back where they were.",
+   "hint": "It was a TIMED escape."
+  },
+  {
+   "title": "Death",
+   "desc": "There was a death on Treebark Ln. The victim was identified as Mark Oswalt, who recently was married. The police went to the crime scene and they reported the death as a suicide.\nLater that day, after the police left, a private detective, hired by the victim's friend who thought it was a murder, searched the crime scene and found a note the police missed.\nIt read,\n\"4,3: 8,1:_: 9,1: 2,1: 7,4:_: 6,1:9,3:_: 9,1: 4,3: 3,3: 3,2: !\"\nThe detective took out his cell phone and started dialing the police to tell them about his findings. Once the detective opened the phone to dial, he immediately screamed out, \"I SOLVED IT!\"\nWho was the murderer and how did the detective find out?",
+   "answer": "The note said, \"It was my wife!\"\nThe detective looked at the keypad on his phone and saw the letters next to the numbers.\n2,1 would be A\n2,2 would be B\n9,4 would be Z",
+   "hint": "Mark Oswalt used his cell phone for business calls many times a day."
+  },
+  {
+   "title": "Caesar Box",
+   "desc": "What does this message say?\nG T Y O R J O T E O U I A B G T",
+   "answer": "\"Great Job You Got It\"\nThis type of code is known as a Caesar Box (Julius Caesar was the first to write codes this way.) To decipher the message, simply divide the code into four groups of four (you can also divide them into groups such as 5 groups of 5 or 6 groups of 6 depending on the number of letters in the phrase), and rearrange them vertically like this...\nG T Y O\nR J O T\nE O U I\nA B G T\nThen you read vertically column by column.",
+   "hint": "Count the letters and try splitting the letters up into groups."
+  },
+  {
+   "title": "We come from?!",
+   "desc": "Andrew Richardson, deputy head cryptographer at a top department of defence (DOD) facility, was working late one night. The last set of codes he received to decipher came from NASA 's space station. Apparently they had been receiving the same 5 set of codes over the past week on a high frequency band in visual digital format. They read...............\nwmoa eemn cfuu orrs\nwkia eesn ltpe ihlt\nhwth oeno pgem eewe\nwsta auob rnpl ispe\naust lmmd laui hnse\n\"Strange,\" Andy thought. \"Never received work from this site before.\"\nEager to finish and get home, he set to work on figuring out the troublesome codes. The first one took him some time .............\nWE COME FROM URANUS.\n\"What!\" he laughed. He thought it was a joke or that he had deciphered incorrectly. However he continued using the same template, and by the time he'd finished he wasn't laughing anymore. He quickly picked up his phone and dialed his director and then the head of the DOD. Somehow he knew he wasn't going home tonight.\nWhat did Andy find that got him so worried?",
+   "answer": "All the codes can be broken by arranging the 16 letters in a grid of 4*4 from left to right. The result is a phrase readable via the columns starting at the top left corner, reading down and ending at the bottom right corner\nUsing the first code\nwmoa eemn cfuu orrs\nW M O A\nE E M N\nC F U U\nO R R S\nYou should be able to read ........\nWE COME FROM URANUS.\nThe other codes read:\nWE LIKE THIS PLANET.\nHOPE WE GET NEW HOME.\nWAR IS UNSTOPPABLE.\nALL HUMANS MUST DIE.",
+   "hint": "Julius Caesar used to write codes this way. Realize that all the strings of text have 16 letters"
+  },
+  {
+   "title": "Fun With Puns",
+   "desc": "These are quotes from George Carlin, one of America's most popular wise guys. Can you decode them?\nBoth puzzles use the same code.\nQ=M\n\"DPKLSUQ SU D ORO-TYRTKLP RYMDOSEDPSRO.\"\n\"'S DQ' SU YLTRYPLJWB PKL UKRYPLUP ULOPLOHL SO PKL LOMWSUK WDOMADML. HRAWJ SP FL PKDP 'S JR' SU PKL WROMLUP ULOPLOHL?\"",
+   "answer": "\"ATHEISM IS A NON-PROPHET ORGANIZATION.\"\n\"'I AM' IS REPORTEDLY THE SHORTEST SENTENCE IN THE ENGLISH LANGUAGE. COULD IT BE THAT 'I DO' IS THE LONGEST SENTENCE?\"\nKEY:\nA=U\nB=Y\nD=A\nE=Z\nF=B\nH=C\nJ=D\nK=H\nL=E\nM=G\nO=N\nP=T\nQ=M\nR=O\nS=I\nT=P\nU=S\nW=L\nY=R\nZ=K",
+   "hint": "E=Z\nO=N\nT=P"
+  },
+  {
+   "title": "Hidden Message",
+   "desc": "Find a short hidden message in the list of words below.\ncarrot fiasco nephew spring rabbit\nsonata tailor bureau legacy corona\ntravel bikini object happen soften\npicnic option waited effigy adverb\nreport accuse animal shriek esteem\noyster",
+   "answer": "Starting with the first two words, Take the first and last letters, reading from left to right. Example: Carrot fiascO \"from these pairs\" the message is as follows:\nCONGRATULATIONS CODE BREAKER",
+   "hint": "First and last."
+  },
+  {
+   "title": "4, 4, 2, 5, 5, 5, 8, 8...",
+   "desc": "This is a quote by a very famous person. Can you decipher it? I won't include capitals in the cipher.\n\"oltsitemsienevfruodngania.\"\n-ebjnmanirfnalkni",
+   "answer": "To decipher: put a space after every 2 letters. Except for the last three letters. Leave them be: olts - ol ts. nia - nia. Then, switch the two (or three) letters around: ol ts - lo st. Nia - ain. Repeat for the next letters: lo st ti me is ne ve rf ou nd ag ain. Put them together, minus spaces: losttimeisneverfoundagain. Then, look at the title: 4, 4, 2, 5, 5, 5, 8, 8... they represent letters before a space: lost time is never found again. Use this rule (this time, all letters are the same) for the last part.\nIt now should read:\nLost time is never found again.\n-Benjamin Franklin.",
+   "hint": "The title is a clue, and the last three letters in the quote are different."
+  },
+  {
+   "title": "Lost In A Cave",
+   "desc": "Three boys were out hiking one day and they came across a cave. They went inside the cave for a while and when they exited, a boy was missing. The other two went back inside the cave to look for him. On the walls were numbers in green paint that they hadn't noticed beforehand. The numbers were as follows:\n4 8 20 21 10 27 36 23 22\nAfter they wrote the numbers in a notebook, they came across a letter written in the same green paint. It read:\nOh, it bothers me to write letters like this. Of how I came across this event I am not aware. However, things must be done. I have written the numbers on the walls. You must use these numbers to find my hiding spot. Good Luck. - The Missing Boy\nHow should you find him?",
+   "answer": "By using the numbers in combination with the letter. Start at the beginning of the letter the boy wrote and skip the number of letters indicated in the number sequence given to get each letter in turn. (Note that spaces do not count as letters.)\nSkip 4 letters from beginning: B\nSkip 8 letters: E\nSkip 20 letters: H\nSkip 21 letters: I\nSkip 10 letters: N\nSkip 27 letters: D\nSkip 36 letters: Y\nSkip 23 letters: O\nSkip 22 letters: U\nTherefore, he is hiding BEHIND YOU."
+  },
+  {
+   "title": "Show Me I",
+   "desc": "Oh no! While separating letters to form quotes for a class project, you inadvertently mixed all the letters up! It is now your job to figure out the code below! Hurry, your grade is depending on it!\n1. Ni awtkr am- Tpy geni revira tsu jtni ala ined.\n2. Ye nsi dt law- Nw on kre vee vahin am owy nana hter omes uomye kci me voli.\n3. Namu rtsyr rah- Go date g not g nihs aw nid neir fat nawu oyfi.\n4. Ar rebig oy- esl eere hwem osp ud nell i wuo ye rasecn ahc gni og eru oy ere hwwo nktn odu oyfi.",
+   "answer": "Yes! You finished before the deadline. Thank goodness too because Mrs. Lawson doesn't take kindly to tardiness due to silly mistakes.\nAll quotes were taken from famous Missourians.\nThe sentences were simply spelled backwards, starting with the persons name.\n1. Denial ain't just a river in Egypt. -Mark Twain\n2. I love Mickey Mouse more than any woman I have ever known. -Walt Disney\n3. If you want a friend in Washington, get a dog. -Harry S. Truman\n4. If you don't know where you're going, chances are you will end up somewhere else. -Yogi Berra",
+   "hint": "The Show Me State"
+  },
+  {
+   "title": "Dollar Bills",
+   "desc": "Can you decode the following phrases? They are NOT regular substitution cryptograms, but they all follow the same rules.\n1) Ni lkna rfnim ajnebse xat dn ahta ed tp ecxenia, treceb otdia seb nacgn. ~ Ihtondlr Owsihtni\n2) Nilkn arf nima j nebdae, de ram eh tfoo wtf iter. ~ Cesapeek Yameerht\n3) No tg nihsaw eg roege no dabana htes u cxe onr. ~ Effoot Rettebsiti",
+   "answer": "Read each quote backwards, keeping the same amount of letters in each word!\n1) In this world nothing can be said to be certain, except death and taxes. ~ Benjamin Franklin\n2) Three may keep a secret, if two of them are dead. ~ Benjamin Franklin\n3) It is better to offer no excuse than a bad one. ~ George Washington",
+   "hint": "It is much simpler than you think.\nKn ih tuoy nahtrel pmis hcu msiti."
+  },
+  {
+   "title": "Girl Power - II",
+   "desc": "Given below are quotes by Indira Gandhi, former Prime Minister of India. Can you decipher them?\nZl tenaqsngure bapr gbyq zr gung gurer ner gjb xvaqf bs crbcyr: gubfr jub jbex naq gubfr jub gnxr gur perqvg. Ur gbyq zr gb gel gb or va gur svefg tebhc; gurer jnf yrff pbzcrgvgvba gurer.\nJr zhfg yrnea gb or fgvyy va gur zvqfg bs npgvivgl naq gb or ivoenagyl nyvir va ercbfr.\nLbh pnaabg funxr unaqf jvgu n pyrapurq svfg.",
+   "answer": "My grandfather once told me that there are two kinds of people: those who work and those who take the credit. He told me to try to be in the first group; there was less competition there.\nWe must learn to be still in the midst of activity and to be vibrantly alive in repose.\nYou cannot shake hands with a clenched fist.\nA N\nB O\nC P\nD Q\nE R\nF S\nG T\nH U\nI V\nJ W\nK X\nL Y\nM Z\nN A\nO B\nP C\nQ D\nR E\nS F\nT G\nU H\nV I\nW J\nX K\nY L\nZ M",
+   "hint": "A N\nE R\nI V\nO B\nU H"
+  },
+  {
+   "title": "We Come From ??????-Part 2",
+   "desc": "Jonathan Hyde, the head cryptographer of the DOD facility, came storming in.\n\"What's the meaning of this, Andy? Could it be a fake? Have we tracked the source of the codes yet?\"\nIt was the first time that Andy had seen his boss so rattled. The feeling was totally disconcerting but understandable, given the circumstances. He lifted his head from the computer monitor he was working at and, turning his head toward his boss, delivered some more bad news.\n\"I don't have the answer to those questions sir; however, I think we have another problem.\"\n\"What can be more problematic than what you've already told me?\"\nAndy showed him. Attached to each corner of the page with the initial strings of codes were more ciphers.\n\"This first one doesn't look so difficult,\" Hyde commented.\nJKK GMIJLR IMRF YPZ\nFGJF PR FGZ YJPKE RSKZIL VUE\nCZ GJOZ CZJNSLR FS IJTZ ESMU RTPL DUE\nRS TPRR JKK PLGJQPFJLFR SD ESMU GSIZ BSSYQEZ\nAfter a few minutes in his office Hyde came out holding a piece of paper with the solution for the first cipher. \"It seems these guys have a flair for bad poetry. Let's start working on these other ciphers.\"\nTaking the paper from Mr. Hyde, Andy smiled. It appeared the boss was back to his old confident self.",
+   "answer": "a- J\nb- Q\nc- V\nd- Y\ne- Z\nf- D\ng- B\nh- G\ni- P\nk-T\nl- K\nm- I\nn-L\no- S\np- N\nr- U\ns- R\nt- F\nu- M\nv- O\nw- C\ny- E\nAll humans must die\nThat is the daily solemn cry\nWe have weapons to make your skin fry\nSo kiss all inhabitants of your home goodbye",
+   "hint": "The first line is the last cipher in the messages previously deciphered by Andy."
+  },
+  {
+   "title": "We Come From ?!-Part 3",
+   "desc": "After about half an hour of bewilderment, Andy rushed over to his boss' office.\n\"Sir I think I've solved this second cryptogram, but it makes no sense\"\nBYND ONCXGDT SGRR Z SZRG\nRPOGJ PO TGDPGT SKGL BYDC Z SDZPR\nKPJJGO ZCYOF SKGC PT ZOYSKGD BYD CYDG BNO\nVNTS RYYW KYU CZOL ERZOGST ZUZL UG ZDG BDYC SKG TNO\n\"Hmm.........I have the same problem. Maybe this cipher is related to the others\"\nAfter mulling over the codes some more, Hyde startled Andy by exclaiming \"Ha!\"\nHe had a big grin on his face. \"Bad poetry and weird math go together with these freaks!\"\nAndy was totally bewildered, \"What are you talking about sir?\"",
+   "answer": "a-Z\nd-J\ne-G\nf-B\ng-F\nh-K\ni-P\nk-W\nl-R\nm-C\nn-O\no-Y\np-E\nr-D\ns-T\nt-S\nu-N\nw-U\ny-L\nFour numbers tell a tale\nLined in series they form a trail\nHidden among them is another for more fun\nJust look how many planets away we are from the sun\nIf you count the number of letters in each of the four lines of the message, you'll see something interesting. A number series \"forms a trail\"\n20.., 27.., 34.., 41\nOf course, the number \"hidden between\" them is 7.\nThe last cryptogram the 'aliens' sent, had the number series 16.., 23.., 30.., 37 corresponding to the number of letters in each of that messages lines. Clearly a similar pattern to this present message.\nIf you've read Part 1 in this quirky adventure, you'd realize that Uranus is the 7th planet from the sun. Bad poetry and weird math indeed!",
+   "hint": "1.Y=o, D=r\n2.Look closely at the letters in each line. The last cryptogram from the 'aliens' show a similar pattern."
+  },
+  {
+   "title": "A Mother's Love",
+   "desc": "It is exam time at Crypt State University. Sara and Mary have been placed together to finish the final project. The professor had given the whole class a list of famous quotes, but all were written in code. The quotes all fit into one of five categories. The girls had to find the two quotes that fit with the category on children. After a lot of hard work and time, the girls are confident they will ace the exam.\nThe two quotes that fit the assigned category are listed below along with the authors. See if you are able to decode them.\nC PHIU SQZWK BPU YUJB MHR BQ NCIU HKICAU BQ RQZG APCTKGUW CJ BQ SCWK QZB MPHB BPUR MHWB HWK BPUW HKICJU BPUE BQ KQ CB.\n- HARRY S. TRUMAN\nBPU BPCWN BPHB CEFGUJJUJ EU BPU EQJB HYQZB HEUGCAH CJ BPU MHR FHGUWBJ QYUR BPUCG APCTKGUW.\n- KING EDWARD VIII",
+   "answer": "A=H\nB=Y\nC=A\nD=K\nE=U\nF=S\nG=N\nH=P\nI=C\nJ=X\nK=V\nL=T\nM=E\nN=W\nO=Q\nP=F\nQ=O\nR=G\nS=J\nT=B\nU=Z\nV=I\nW=M\nX=L\nY=R\nZ=D\nI HAVE FOUND THE BEST WAY TO GIVE ADVICE TO YOUR CHILDREN IS TO FIND OUT WHAT THEY WANT, AND THEN ADVISE THEM TO DO IT.\n- HARRY S. TRUMAN\nTHE THING THAT IMPRESSES ME THE MOST ABOUT AMERICA IS THE WAY PARENTS OBEY THEIR CHILDREN.\n-KING EDWARD VIII",
+   "hint": "A=H\nE=U\nI=C\n0=Q\nU=Z"
+  },
+  {
+   "title": "They Knead You",
+   "desc": "The quotes below have a common theme. Each quote concerns those lovable little kitties who knead on our laps when we are wearing shorts and never come when they are called. And yet, they manage to make every life that they touch richer for the experience. Can you decipher these pieces of cat wisdom?\nN FKR UWIQ EX LWWM, RJA EAGQNQY WS VAQ, GQU HAA RJA PGR HENONQY NQRW JAC SKC GH HJA UAONPGRAOX PWELH NR INRJ JAC CWKYJ FNQM RWQYKA.\nPGR, N IWKOU OAQU XWK RJNH LWWM RW HRKUX LKR NR GFFAGCH XWK JGTA GOCAGUX CAGU NR.\nHJA OWWMH KF GQU YNTAH EA JAC SKOO YGVA.\nUWQ'R LA CNUNPKOWKH, HJA FKCCH, N ICWRA NR.\n- SCWE \"ENGW\" LX UNOXH OGNQY\nJWI QNPA NR NH RW RJNQM RJGR SAONQA UCAGEH, ONMA WKC WIQ, GCA FGNQRAU INRJ PCAGRNTA LCKHJ HRCWMAH SCWE RNEA RW RNEA. FACJGFH EX PGRH GQU N ATAQ HJGCA RJA HGEA UCAGE: G IWCOU IJACA GOO MNRRAQH GCA IGQRAU GQU OWTAU, GQU IJACA ATACX PGR JGH G HGSA, IGCE FOGPA RW HOAAF...GQU RW UCAGE. - LGCLGCG O. UNGEWQU",
+   "answer": "I put down my book, The Meaning of Zen, and see the cat smiling into her fur as she delicately combs it with her rough pink tongue.\nCat, I would lend you this book to study but it appears you have already read it.\nShe looks up and gives me her full gaze.\nDon't be ridiculous, she purrs, I wrote it.\n- from \"Miao\" by Dilys Laing\nHow nice it is to think that feline dreams, like our own, are painted with creative brush strokes from time to time. Perhaps my cats and I even share the same dream: a world where all kittens are wanted and loved, and where every cat has a safe, warm place to sleep...and to dream. - Barbara L. Diamond\nEncrypted-Unencrypted\nA=E\nB=J\nC=R\nD=X\nE=M\nF=P\nG=A\nH=S\nI=W\nJ=H\nK=U\nL=B\nM=K\nN=I\nO=L\nP=C\nQ=N\nR=T\nS=F\nT=V\nU=D\nV=Z\nW=O\nX=Y\nY=G\nZ=Q",
+   "hint": "Encryped-Unencrypted\nM=K\nE=M\nO=L\nW=O"
+  }
+]

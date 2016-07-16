@@ -1,0 +1,87 @@
+{
+ "selection1": [
+  {
+   "title": "Grandmas and Trolls",
+   "desc": "You are on your way to visit your Grandma, who lives at the end of the valley. It's her birthday, and you want to give her the cakes you've made.\nBetween your house and her house, you have to cross 7 bridges, and as it goes in the land of make believe, there is a troll under every bridge! Each troll, quite rightly, insists that you pay a troll toll. Before you can cross their bridge, you have to give them half of the cakes you are carrying, but as they are kind trolls, they each give you back a single cake.\nHow many cakes do you have to leave home with to make sure that you arrive at Grandma's with exactly 2 cakes?",
+   "answer": "2: At each bridge you are required to give half of your cakes, and you receive one back. Which leaves you with 2 cakes after every bridge."
+  },
+  {
+   "title": "Aunt's Ol' Jalopy",
+   "desc": "After visiting my Great Aunt Annie, I travelled home in her old jalopy. The car was old and battered, it had a leak from the petrol tank, and I was stuck in second gear.\nThis meant that I could only travel along at a steady 30 miles per hour and managed a paltry 20 miles per gallon of fuel.\nAt the start of the journey I had placed exactly 10 gallons of fuel into the tank. I knew though, that the fuel tank lost fuel at the rate of half a gallon per hour.\nJust as I arrived home, the car stopped because it had run out of fuel and I had only just made it.\nHow far was it from my Great Aunt's to my home?",
+   "answer": "150 miles.\nI was travelling at 30mph at a rate of 20mpg, so I was using 1.5 gallons every hour for the driving itself. I was also losing 0.5 gallon every hour, so in total, I was using 2 gallons every hour. Therefore to use all of the 10 gallons I started with, I travelled for 5 hours.\n5 hours at 30mph is 150 miles."
+  },
+  {
+   "title": "Sum-day Soon",
+   "desc": "Some people believe that January 1, 2000 is the first day of the 21st century. Other people believe that the honor belongs to January 1, 2001. But everyone should agree that January 1, 2002 is the first \"sum-day\" of the new century- when you write out that date in standard notation, it becomes 01/01/02, and 1+1=2. More generally, a sum-day is a date in which the day and month add up to the year. With that in mind:\nA) What is the last sum-day of the 21st century?\nB) How many sum-days are there in the 21st century?",
+   "answer": "A) The last sum-day of the 21st century is December 31, 2043, because 12+31=43, and both the month and day are as big as possible.\nB) This one is much easier than you might think. The correct answer is 365, because every day in a standard (non-leap) year is part of a sum-day for some year. For example, November 26 is a sum-day for the year 2037, because 11+26=37. The only date for which this principle doesn't work is the leap day, February 29. That's because 2+29=31, but 2031 is not a leap year."
+  },
+  {
+   "title": "The Father of Algebra",
+   "desc": "Diophantus was a Greek mathematician who lived in the third century. He was one of the first mathematicians to use algebraic symbols.\nMost of what is known about Diophantus's life comes from an algebraic riddle from around the early sixth century. The riddle states:\nDiophantus's youth lasted one sixth of his life. He grew a beard after one twelfth more. After one seventh more of his life, he married. 5 years later, he and his wife had a son. The son lived exactly one half as long as his father, and Diophantus died four years after his son.\nHow many years did Diophantus live?",
+   "answer": "The riddle, the \"facts\" of which may or may not be true, results in the following equation:\nx/6 + x/12 + x/7 + 5 + x/2 + 4 = x\nwhere x is Diophantus's age at the time of his death.\nTherefore, Diophantus lived exactly 84 years."
+  },
+  {
+   "title": "Number Tricks",
+   "desc": "Ms. Arroyo asked the class to see if they could find the sum of the first 50 odd numbers. As everyone settled down to their addition, Terry ran to her and said, \"The sum is 2,500.\" Ms. Arroyo thought, \"Lucky guess,\" and gave him the task of finding the sum of the first 75 odd numbers. Within 20 seconds, Terry was back with the correct answer of 5,625.\nHow does Terry find the sum so quickly?",
+   "answer": "The following pattern holds: The sum is equal to n x n, when n is the number of consecutive odd numbers, starting with 1. For example, the sum of the first 3 odd numbers is equal to 3 x 3, or 9; the sum of the first 4 odd numbers is equal to 4 x 4, or 16; the sum of the first 5 odd numbers is equal to 5 x 5, or 25; and so on.",
+   "hint": "Consecutive odd numbers are 1, 3, 5, 7....\nStart with the first several odd numbers and look for a pattern."
+  },
+  {
+   "title": "How Many Campers?",
+   "desc": "Camp Pineveiw's cook, Margaret Johnson, was just about to begin preparing the picnic lunch for all the campers. She already knew she needed to fill 55 bowls of the same size and capacity with the same amount of food. When she was done, she decided to read the guidelines for the picnic, just out of curiosity. The guidelines said:\n1. Every camper gets their own bowl of soup.\n2. Every two campers will get one bowl of spaghetti to share.\n3. Every three campers will get one bowl of salad to share.\n4. All campers are required to have their own helping of salad, spaghetti, and soup.\nAfter some rapid calculations, Margaret was able to figure out how many campers were going to the picnic. Can you?",
+   "answer": "30 campers.",
+   "hint": "If there were only six campers, there would be six bowls of soup, three bowls of spaghetti, and two bowls of salad."
+  },
+  {
+   "title": "Palindromic Time",
+   "desc": "On a 12-hour digital clock, what is the smallest interval between two times that are palindromic (can be read forwards and backwards as the same number)?",
+   "answer": "The interval is two minutes, between the times of 9:59 and 10:01.",
+   "hint": "It's shorter than 10 minutes!"
+  },
+  {
+   "title": "Troubling Doubling at School",
+   "desc": "Read the little poem and answer its question if you can.\nThe number of girls who do wear a watch\nis double the number who don't.\nBut the number of boys who do not wear a watch\nis double the number who do.\nIf I tell you the number of girls in my class\nis double the number of boys,\nCan you tell me the number I teach? Here's a clue:\nMore than 20; below 32!",
+   "answer": "27\nSolution:\nThe number of boys must be a multiple of 3 (3, 6, 9...) so that it can be split in the ratio of 2:1 (no watch:watch).\nThe number of girls is double the no. of boys (6, 12, 18...)\nSo the totals can only be 9, 18, 27...",
+   "hint": "The sum of number plus its double must be a multiple of 3."
+  },
+  {
+   "title": "Parakeet Basketball",
+   "desc": "Your favorite college basketball team, the Fighting Parakeets, is playing against a rival, but you haven't been able to see any of the game yet because you have been busy. However, your brother was in a nearby room watching it. Your brother sees a statistics display during the halftime break and decides to give you a trick math test. You come into the room as the second half is beginning and see that your team is winning 32-29. Your brother says, \"The Fighting Parakeets have scored on 18 shots. They have made at least twice as many 2-point shots as free throws. How many free throws, 2-pointers, and 3-pointers have they made?\" He thinks you will become confused in your figuring because he has not given you quite enough information to find the solution. However, you could hear bits and pieces of the game from the next room while you were busy, and you happened to hear that your favorite Fighting Parakeets player nailed a long 3-point shot. What is the answer to your brother's question?",
+   "answer": "5 free throws, 12 2-point shots, and 1 3-point shot.\nLet x be the number of free throws made,\ny be the number of 2-pointers made,\nand z be the number of 3-pointers made.\nFrom the score, you know (A): x + 2y + 3z = 32\nFrom the quote, you know (B): x + y + z = 18\nMultiply (B) by 3 to get (C): 3x + 3y + 3x = 54\nSubtract (A) from (C) to get: 2x + y = 22, or (D): y = 22 - 2x\nFrom the quote, you also know (E): 2x <= y\nSubstituting (D) into (E) gives: 2x <= 22 - 2x, or (F): x <= 5.5\nIf x=5, then from (D) you get y=12, and from (A) you get z=1.\nIf x=4, then y=14, and z=0.\nIf x=3, then y=16, and z=-1. This is not possible because z cannot be negative. If you continue decrementing x, then z will continue to decrease too.\nSo, you have two options that fit the criteria given by your brother:\n5 free throws, 12 2-point shots, 1 3-point shot, or\n4 free throws, 14 2-point shots, 0 3-point shots.\nSo it's a good thing that you heard that your favorite player made a 3-pointer, because that eliminates the second option!",
+   "hint": "A free throw scores 1 point."
+  },
+  {
+   "title": "Monk Steps",
+   "desc": "A monk has a very specific ritual for climbing up the steps to the temple. First he climbs up to the middle step and meditates for 1 minute. Then he climbs up 8 steps and faces east until he hears a bird singing. Then he walks down 12 steps and picks up a pebble. He takes one step up and tosses the pebble over his left shoulder. Now, he walks up the remaining steps three at a time which only takes him 9 paces. How many steps are there?",
+   "answer": "There are 49 steps.\nHe climbs halfway, which is step 25. He hears the bird singing on step 33. He picks up the pebble on the 21st step and tosses it on the 22nd step. The remaining 27 steps are taken three at a time which is 9 paces."
+  },
+  {
+   "title": "No New Digits",
+   "desc": "What 6 digit number when multiplied by either 2, 3, 4, 5 or 6 has no new digits which appear?",
+   "answer": "142857.\n142857 * 2 = 287514\n142857 * 3 = 428571\n142857 * 4 = 571428\n142857 * 5 = 714285\n142857 * 6 = 857142"
+  },
+  {
+   "title": "Missing Price",
+   "desc": "When I went to the store, I purchased four items. The following shows the cost of three of the items:\n$1.50\n$3.00\n$4.00\nThe line to the checkout was pretty long, so to quench my boredom I started playing with my pocket calculator while waiting.\nI found out, to my surprise, that the four prices of the four items I purchased added to the same number as I got when I multiplied the four prices together.\nWhat was the price of the fourth item?",
+   "answer": "The three prices add to 1.50 + 3.00 + 4.00 = $8.50.\nThe three prices multiply to 1.50 x 3.00 x 4.00 = $18.00.\nYou might be able to see that adding another $0.50 will take the total to $9.00, and multiplying by another $0.50 will take the product to $9.00 also, but the answer can also be found using algebra. Let's call the unknown price P:\n1.50 + 3.00 + 4.00 + P = 1.50 x 3.00 x 4.00 x P\n8.50 + P = 18.00 x P\n8.50 = 18.00 x P - P\n8.50 = 17.00 x P\n8.50/17.00 = P\nP = 0.50.",
+   "hint": "Add and multiply what you have already."
+  },
+  {
+   "title": "Sunnies",
+   "desc": "It was going to be another really hot day, but Ted needed a new pair of cool sunnies* before he could hit the surf. He needed another $52 to buy the ones he wanted.\nTed decided to sell home-made smoothies at his gate: $2 each, or three for $4. He had the $52 after selling 32 smoothies, stopped work and headed off to the beach.\nHow many smoothies had been sold at the $2 price?\n* sunnies = sunglasses in New Zealand & Australia",
+   "answer": "14\n[14 @ $2 = $28; 18 @ 3 for $4 = $24]\nSolution:\nIf he had sold them all at $2, he would have earned $64. The $12 difference is the discount he gave to six people buying 3 for $4.\nSo 18 were sold at the discount price - the other 14 were sold individually."
+  },
+  {
+   "title": "Tie the Knots",
+   "desc": "Joe needed a rope 75 feet long. He went to a local hardware store, but found that they did not have ropes nearly that long. They had only 3', 5', 12', and 20' segments of rope. Joe would have bought only 20' segments, as they were the cheapest per foot; unfortunately, they had such a limited quantity of segments (though none were out of stock) that he had to buy all of the 20', 12', and 5' segments available, and 3' segments for the remainder. In fact, he bought a greater quantity of each length than the next longer length (i.e., more 3' segments than 5' segments, more 5' segments than 12' segments, and more 12' segments than 20' segments). Just to be sure he had some margin for error, he bought a total of 90 feet, even though he needed only 75 feet. When he got home, he was glad he had decided to buy a little extra, because only then did he realize that he was going to lose some length as he tied the segments together to make the full rope. He tied two pieces together to check how much length he would lose, and found it to be 6 inches lost from each of the two segments that were tied together. Does Joe have enough to make his 75-foot rope?",
+   "answer": "Yes. He will have a 76-foot rope.\nThe only combination that fits the statements in the puzzle is:\n1 20' segment\n2 12' segments\n5 5' segments\n7 3' segments\nThis is a total of 15 segments, which will require 14 knots to tie together. Each knot takes 6 inches off of two segments, or 1 foot total; therefore, of his 90 feet of rope, he will lose 14 feet in the knots, making a 76-foot rope.",
+   "hint": "Is it possible for Joe to have bought more than 1 20-foot segment, with the total adding up to 90 feet? Is it possible for him to have bought more than 2 12-foot segments?"
+  },
+  {
+   "title": "Area of a Square",
+   "desc": "You have a piece of paper, 10cm by 10cm. Area = 100cm^2. For some reason, you need a square piece of paper with an area of 50cm^2. Using the paper you have, what's an easy way of getting the new square?",
+   "answer": "Fold the four corners of the square into the centre. This doubles the thickness of the paper, and so halves the area.",
+   "hint": "Try it with a piece of paper, doesn't matter the size of the square, try to find a square half its size inside it."
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3EE84E1D31548B00AA3479 /* SingleCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE84D1D31548B00AA3479 /* SingleCategoryViewController.swift */; };
+		6D969D3D1D2E8B5100CBF8C4 /* enigma.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D3C1D2E8B5100CBF8C4 /* enigma.png */; };
+		6D969D471D2FDCF400CBF8C4 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D461D2FDCF400CBF8C4 /* defaultPhoto.png */; };
+		6D969D4B1D312C4F00CBF8C4 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D969D4A1D312C4F00CBF8C4 /* CategoryTableViewController.swift */; };
+		6D969D4F1D312D5400CBF8C4 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D969D4E1D312D5400CBF8C4 /* Categories.swift */; };
+		6D969D511D312F7B00CBF8C4 /* Categories in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D501D312F7B00CBF8C4 /* Categories */; };
+		6DA2B2FE1D31B00000427875 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA2B2FC1D31B00000427875 /* Fabric.framework */; };
+		6DA2B2FF1D31B00000427875 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA2B2FD1D31B00000427875 /* Crashlytics.framework */; };
+		6DA3932A1D2E6FED00D66D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA393291D2E6FED00D66D18 /* AppDelegate.swift */; };
+		6DA3932C1D2E6FED00D66D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3932B1D2E6FED00D66D18 /* ViewController.swift */; };
+		6DA3932F1D2E6FED00D66D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3932D1D2E6FED00D66D18 /* Main.storyboard */; };
+		6DA393321D2E6FED00D66D18 /* enigma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DA393301D2E6FED00D66D18 /* enigma.xcdatamodeld */; };
+		6DA393341D2E6FED00D66D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA393331D2E6FED00D66D18 /* Assets.xcassets */; };
+		6DA393371D2E6FED00D66D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA393351D2E6FED00D66D18 /* LaunchScreen.storyboard */; };
+		6DE08A141D364E4200E1E000 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 6DE08A131D364E4200E1E000 /* Data */; };
+		6DE08A161D36833000E1E000 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE08A151D36833000E1E000 /* Info.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D3EE84D1D31548B00AA3479 /* SingleCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleCategoryViewController.swift; sourceTree = "<group>"; };
+		6D969D3C1D2E8B5100CBF8C4 /* enigma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enigma.png; path = Images/enigma.png; sourceTree = "<group>"; };
+		6D969D461D2FDCF400CBF8C4 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultPhoto.png; path = Images/defaultPhoto.png; sourceTree = "<group>"; };
+		6D969D4A1D312C4F00CBF8C4 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryTableViewController.swift; path = ../CategoryTableViewController.swift; sourceTree = "<group>"; };
+		6D969D4E1D312D5400CBF8C4 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		6D969D501D312F7B00CBF8C4 /* Categories */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Categories; path = Images/Categories; sourceTree = "<group>"; };
+		6DA2B2FC1D31B00000427875 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6DA2B2FD1D31B00000427875 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		6DA393261D2E6FED00D66D18 /* enigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA393291D2E6FED00D66D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DA3932B1D2E6FED00D66D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DA3932E1D2E6FED00D66D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA393311D2E6FED00D66D18 /* enigma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = enigma.xcdatamodel; sourceTree = "<group>"; };
+		6DA393331D2E6FED00D66D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA393361D2E6FED00D66D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DA393381D2E6FED00D66D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE08A131D364E4200E1E000 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		6DE08A151D36833000E1E000 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA393231D2E6FED00D66D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA2B2FF1D31B00000427875 /* Crashlytics.framework in Frameworks */,
+				6DA2B2FE1D31B00000427875 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D969D3B1D2E8B3B00CBF8C4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6D969D501D312F7B00CBF8C4 /* Categories */,
+				6D969D461D2FDCF400CBF8C4 /* defaultPhoto.png */,
+				6D969D3C1D2E8B5100CBF8C4 /* enigma.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6D969D561D3138D400CBF8C4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6DA393291D2E6FED00D66D18 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		6D969D571D3138EF00CBF8C4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3932D1D2E6FED00D66D18 /* Main.storyboard */,
+				6DA393351D2E6FED00D66D18 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		6D969D581D31390100CBF8C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D3EE84D1D31548B00AA3479 /* SingleCategoryViewController.swift */,
+				6D969D4A1D312C4F00CBF8C4 /* CategoryTableViewController.swift */,
+				6DA3932B1D2E6FED00D66D18 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6D969D591D31391500CBF8C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D969D4E1D312D5400CBF8C4 /* Categories.swift */,
+				6DE08A151D36833000E1E000 /* Info.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6D969D5A1D31394200CBF8C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DA393381D2E6FED00D66D18 /* Info.plist */,
+				6D969D3B1D2E8B3B00CBF8C4 /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D969D5B1D31395200CBF8C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DE08A131D364E4200E1E000 /* Data */,
+				6DA393331D2E6FED00D66D18 /* Assets.xcassets */,
+				6DA393301D2E6FED00D66D18 /* enigma.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6DA3931D1D2E6FED00D66D18 = {
+			isa = PBXGroup;
+			children = (
+				6DA393281D2E6FED00D66D18 /* enigma */,
+				6DA393271D2E6FED00D66D18 /* Products */,
+				6DA2B2FC1D31B00000427875 /* Fabric.framework */,
+				6DA2B2FD1D31B00000427875 /* Crashlytics.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA393271D2E6FED00D66D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA393261D2E6FED00D66D18 /* enigma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA393281D2E6FED00D66D18 /* enigma */ = {
+			isa = PBXGroup;
+			children = (
+				6D969D571D3138EF00CBF8C4 /* Storyboard */,
+				6D969D561D3138D400CBF8C4 /* App */,
+				6D969D581D31390100CBF8C4 /* Controller */,
+				6D969D591D31391500CBF8C4 /* Model */,
+				6D969D5B1D31395200CBF8C4 /* Resources */,
+				6D969D5A1D31394200CBF8C4 /* Supporting Files */,
+			);
+			path = enigma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA393251D2E6FED00D66D18 /* enigma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA3933B1D2E6FED00D66D18 /* Build configuration list for PBXNativeTarget "enigma" */;
+			buildPhases = (
+				6DA393221D2E6FED00D66D18 /* Sources */,
+				6DA393231D2E6FED00D66D18 /* Frameworks */,
+				6DA393241D2E6FED00D66D18 /* Resources */,
+				6DA2B2FB1D31AFB800427875 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = enigma;
+			productName = enigma;
+			productReference = 6DA393261D2E6FED00D66D18 /* enigma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA3931E1D2E6FED00D66D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andreea-Daniela Ene";
+				TargetAttributes = {
+					6DA393251D2E6FED00D66D18 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 57VRXHM8WR;
+					};
+				};
+			};
+			buildConfigurationList = 6DA393211D2E6FED00D66D18 /* Build configuration list for PBXProject "enigma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA3931D1D2E6FED00D66D18;
+			productRefGroup = 6DA393271D2E6FED00D66D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA393251D2E6FED00D66D18 /* enigma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA393241D2E6FED00D66D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D969D511D312F7B00CBF8C4 /* Categories in Resources */,
+				6D969D471D2FDCF400CBF8C4 /* defaultPhoto.png in Resources */,
+				6DA393371D2E6FED00D66D18 /* LaunchScreen.storyboard in Resources */,
+				6DA393341D2E6FED00D66D18 /* Assets.xcassets in Resources */,
+				6D969D3D1D2E8B5100CBF8C4 /* enigma.png in Resources */,
+				6DA3932F1D2E6FED00D66D18 /* Main.storyboard in Resources */,
+				6DE08A141D364E4200E1E000 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DA2B2FB1D31AFB800427875 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c9a1fd23a68bae0c789ffe03592b2d6a54b3a6b5 33852dc79c31833e2b1687372d4ceadda73d4e9b4d8dbbdeb7aabc201587f384";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA393221D2E6FED00D66D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3932C1D2E6FED00D66D18 /* ViewController.swift in Sources */,
+				6DA393321D2E6FED00D66D18 /* enigma.xcdatamodeld in Sources */,
+				6D3EE84E1D31548B00AA3479 /* SingleCategoryViewController.swift in Sources */,
+				6DA3932A1D2E6FED00D66D18 /* AppDelegate.swift in Sources */,
+				6D969D4B1D312C4F00CBF8C4 /* CategoryTableViewController.swift in Sources */,
+				6D969D4F1D312D5400CBF8C4 /* Categories.swift in Sources */,
+				6DE08A161D36833000E1E000 /* Info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DA3932D1D2E6FED00D66D18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA3932E1D2E6FED00D66D18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA393351D2E6FED00D66D18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA393361D2E6FED00D66D18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DA393391D2E6FED00D66D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DA3933A1D2E6FED00D66D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA3933C1D2E6FED00D66D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = enigma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ade.enigma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DA3933D1D2E6FED00D66D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = enigma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ade.enigma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA393211D2E6FED00D66D18 /* Build configuration list for PBXProject "enigma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA393391D2E6FED00D66D18 /* Debug */,
+				6DA3933A1D2E6FED00D66D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA3933B1D2E6FED00D66D18 /* Build configuration list for PBXNativeTarget "enigma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA3933C1D2E6FED00D66D18 /* Debug */,
+				6DA3933D1D2E6FED00D66D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DA393301D2E6FED00D66D18 /* enigma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DA393311D2E6FED00D66D18 /* enigma.xcdatamodel */,
+			);
+			currentVersion = 6DA393311D2E6FED00D66D18 /* enigma.xcdatamodel */;
+			path = enigma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DA3931E1D2E6FED00D66D18 /* Project object */;
+}
