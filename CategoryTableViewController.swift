@@ -14,63 +14,67 @@ class CategoriesTableViewController: UIViewController, UITableViewDataSource, UI
 
 	@IBOutlet var tableView: UITableView!
 	
-	var data:[Categories] = [Categories]()
+	let names = ["Cryptography", "Math", "Mystery", "Riddle", "Science", "Series", "Situation", "Trick", "Trivia"];
+	var categories:[Category] = [Category]()
+	
 	
     override func viewDidLoad() {
         super.viewDidLoad()
 		
 		Fabric.with([Crashlytics.self])
 		
-		loadData()
+		// Populate data
+		for name in names {
+			categories.append(Category(name))
+		}
     }
 	
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-	}
-	
+
     // MARK: - Table view dataSource methods
 
 	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return data.count
+		// Number of rows
+		return categories.count
 	}
 	
 	
 	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-			
+		// Load each row
 		let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier")! as UITableViewCell
-			
-		let categories = data[indexPath.row]
-			
-		cell.textLabel?.text = categories.name
-			
-		cell.imageView?.image = categories.image
+
+		let category = categories[indexPath.row]
+		cell.textLabel?.text  = category.name
+		cell.imageView?.image = category.image
 		
 		return cell
 	}
 	
+	
 	// MARK:- TabvleView Delegate methods
 		
 	func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+		// Row height
 		return 60.0
 	}
 	
+//	func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//		// On tap
+//		
+//		let currentCell = tableView.cellForRowAtIndexPath(indexPath)! as UITableViewCell
+//		
+//		print("You selected cell \(currentCell.textLabel!.text)!")
+//	
+//		let ref = SingleCategoryViewController()
+//		var enigmas = categories[indexPath.row].enigmas
+//		
+////		ref.selectedCateg = currentCell.textLabel!.text!
+////		ref.getJSON((currentCell.textLabel?.text!.lowercaseString)!)
+//		
+////		print("You selected cell #\(indexPath.row)!")
+//	}
 	
-	//MARK:- Populate data
 	
-	func loadData() -> [Categories] {
-		
-		data.append(Categories(name:"Cryptography",imageName:"Categories/cryptography"))
-		data.append(Categories(name:"Math", imageName:"Categories/math"))
-		data.append(Categories(name:"Mystery", imageName:"Categories/mystery"))
-		data.append(Categories(name:"Riddle", imageName:"Categories/riddle"))
-		data.append(Categories(name:"Science", imageName:"Categories/science"))
-		data.append(Categories(name:"Series", imageName:"Categories/series"))
-		data.append(Categories(name:"Situation", imageName:"Categories/situation"))
-		data.append(Categories(name:"Trick", imageName:"Categories/trick"))
-		data.append(Categories(name:"Trivia", imageName:"Categories/trivia"))
-		
-		return data
-	}
+
 	
 	//MARK:- Prepare Segue
 	
@@ -78,9 +82,10 @@ class CategoriesTableViewController: UIViewController, UITableViewDataSource, UI
 		if segue.identifier == "goToCategory" {
 			let cell = sender as! UITableViewCell
 			let selectedRow = tableView.indexPathForCell(cell)?.item
-			let detailViewController:SingleCategoryViewController = segue.destinationViewController as! SingleCategoryViewController
+			let destination = segue.destinationViewController as! SingleCategoryViewController
 			
-			detailViewController.NavigationItem.title = data[selectedRow!].name
+			destination.NavigationItem.title = categories[selectedRow!].name // set title
+			
 		}
 	}
 

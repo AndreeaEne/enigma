@@ -1,0 +1,90 @@
+{
+ "enigmas": [
+  {
+   "title": "Two Part Challenge",
+   "desc": "I had a lot of fun putting together the following list of words. Can you figure out the rule I used to develop the list? Once you do, have fun creating your own list!\nmount, right, left, roll, mote, lick,\nlass, over, rate, aunt, rill, arch,\noral, ever, pine, rice, tip, each,\nteam, rash, sage, ouch, edge, ray,\nearn, any",
+   "answer": "Each 3 to 5 letter word, when preceded by sequential letters of the alphabet, will form new words:\namount, bright, cleft, droll, emote, flick,\nglass, hover, irate, jaunt, krill, larch,\nmoral, never, opine, price, q-tip, reach,\nsteam, trash, usage, vouch, wedge, x-ray,\nyearn, zany",
+   "hint": "The order matters. Count the words."
+  },
+  {
+   "title": "It Sounds Easy",
+   "desc": "Can you figure out the logic I used to decide the order of the following words:\ngun, shoe, spree, door, hive, kicks, heaven, gate, line, den",
+   "answer": "Each word rhymes with its numeric position in the list. (e.g. \"gun\" rhymes with \"one\", etc.)",
+   "hint": "The title is a clue"
+  },
+  {
+   "title": "SNEPOHC_",
+   "desc": "Which letter comes next in the following sequence?\nS, N, E, P, O, H, C, _",
+   "answer": "E.\nWhy? Each group of four consecutive letters, when read in reverse, form a word:\nSNEP - pens\nNEPO - open\nEPOH - hope\nPOHC - chop\nOHCE - echo",
+   "hint": ".sdrawkcab ti ta kooL"
+  },
+  {
+   "title": "Teaser Shopping",
+   "desc": "Professor C. D. Rock ran out of teasers, so he went to Teaserville to buy some more. After arriving there he went to 6 different stores. He first went to the \"Theater\" to buy some teasers about movies. He then went to the \"ER Hospital\" to buy teasers about health, and the human body. Then he went to, in order, the \"Art Center,\" the \"Supermarket,\" and the \"Energy Plantation.\" He then went to one last store. It was one of the following:\nA. Library\nB. High School\nC. Dance Arena\nD. Saloon\nE. Dog Pound\nF. Railroad Station\nG. Petting Zoo\nH. Carnival\nCan you figure out which place Professor C. D. Rock visited lastly?",
+   "answer": "F. Railroad Station\nThe first letter of each place he went to spells out the word \"teaser.\"\nTheater\nEr Hospital\nArt Center\nSupermarket\nEnergy Plantation\nRailroad Station",
+   "hint": "The order of the places he visited has great significance."
+  },
+  {
+   "title": "Triples",
+   "desc": "A Triple is a Series with 6 sets, each with 3 numbers apiece. The relationship between the first two numbers is the same throughout all of the sets, and the relationship between the last two numbers is also the same, however, it is different than the first relationship. Try and find the missing numbers:\n2 5 10\n3 10 20\n4 17 34\n5 __ __\n_ 37 __\n_ __ 100",
+   "answer": "2 5 10\n3 10 20\n4 17 34\n5 26 52\n6 37 74\n7 50 100\nRelationship for first two numbers: square it, add 1 (2 squared=4, 4+1=5)\nRelationship for last two numbers: double it (5 doubled = 10)"
+  },
+  {
+   "title": "Animal Course",
+   "desc": "What animal completes this series?\nfly, spider, bird, cat, dog, goat, cow, ?",
+   "answer": "horse\nThese are all the animals swallowed by the old lady in the nursery rhyme:\n- There was an old lady who swallowed a fly. I don't know why she swallowed a fly. Perhaps she'll die!\nThe rhyme continues with the following animals:\n- She swallowed a spider to catch the fly.\n- She swallowed a bird to catch the spider.\n- She swallowed a cat to catch the bird.\n- She swallowed a dog to catch the cat.\n- She swallowed a goat to catch the dog.\n- She swallowed a cow to catch the goat.\nThe rhyme concludes with:\n- There was an old lady who swallowed a horse. She's dead, of course.\nAs for the title, a course is part of a meal, which hints at the old lady's eight-course meal of animals.",
+   "hint": "It isn't a swallow, of course. The title is also a hint."
+  },
+  {
+   "title": "Shape Series",
+   "desc": "Complete the series by choosing the correct shape from the four options.",
+   "answer": "#1.\nThe series is the top part of the letters CDEF. The next letter is G.",
+   "hint": "Letters"
+  },
+  {
+   "title": "Out of Order",
+   "desc": "Can you rank the following series of words in the proper order?\nadmission, cook, governor, league, message, mustard, pepper, punishment",
+   "answer": "message, punishment, pepper, governor, cook, league, mustard, admission\nThe reverse order is also acceptable.\nExplanation:\nEach of the words can be preceded by a military rank to form a phrase.\n(private) message,\n(corporal) punishment,\n(sergeant) pepper,\n(lieutenant) governor,\n(captain) cook,\n(major) league,\n(colonel) mustard,\n(general) admission",
+   "hint": "Who outranks whom?"
+  },
+  {
+   "title": "How Long Will It Take?",
+   "desc": "Which letter comes next in the series?\nS, M, H, D, W, M, ?\nPick from:\nL\nV\nY\nT\nD",
+   "answer": "Y\nSecond\nMinute\nHour\nDay\nWeek\nMonth\nYear"
+  },
+  {
+   "title": "Next Animal...",
+   "desc": "What is the next animal in this series:\nQuail, Weasel, Emu, Racoon, -?-\nChoose from:\nYak\nTurkey\nBumblebee\nOstrich\nTiger\nEland",
+   "answer": "Turkey\nThe series alternates between bird and mammal, but at the same time, the animals begin with the letters from the top row of a QWERTY keyboard. Thus \"T\" is the next letter, and the only bird in the list that begins with a \"T\" is \"Turkey\".\nAlso, \"Yak\" would be next in the series after Turkey... extra points if you noticed!",
+   "hint": "Think of the TYPE of animal...\nYes... TYPE is extra emphasized..."
+  },
+  {
+   "title": "Next Word",
+   "desc": "What word is missing?\nbegin inch chapel elastic ==?== cellar arisen end",
+   "answer": "Ice: each word begins with the last two letters of the previous word.",
+   "hint": "Last 2 letters"
+  },
+  {
+   "title": "G, D, S, B, H, S...",
+   "desc": "What is the next letter in this fairy tale sequence?\nG, D, S, B, H, S, ??",
+   "answer": "D. These are the first letters of Disney's seven dwarfs: Grumpy, Dopey, Sneezy, Bashful, Happy, Sleepy, Doc",
+   "hint": "Mirror mirror on the wall..."
+  },
+  {
+   "title": "7, 14, 17, 21, 27, 28, 35, 37, ?, ?",
+   "desc": "What are the next two numbers in this sequence?\n7, 14, 17, 21, 27, 28, 35, 37, ?, ?",
+   "answer": "42, 47.\nThey are the numbers that either contain the digit 7 or are divisible by 7.",
+   "hint": "These numbers are passed in a game."
+  },
+  {
+   "title": "What's Next?",
+   "desc": "What is the next number in the following series?\n123, 354, 897, 1875, 10626, ?",
+   "answer": "The next number in the series is 16887. Take the first number and move the number in the unit's place to the ten's, the number in the ten's place to the hundred's and the number in hundred's place to the unit's place.\nExample: 123 becomes 231\nand\n354 becomes 543.\nAdd the original number with the number obtained from shuffling the digits to get the next number in the series."
+  },
+  {
+   "title": "37, 10, 82",
+   "desc": "Can you discover the missing number in this series?\n37, 10, 82\n29, 11, 47\n96, 15, 87\n42, ?, 15",
+   "answer": "The missing number is 6.\nThe number in the middle of each triple is the same as the digits of either end's number when added together. 3+7=10=8+2 and so on."
+  }
+ ]
+}

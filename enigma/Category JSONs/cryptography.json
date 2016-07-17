@@ -1,4 +1,5 @@
-[
+{
+ "enigmas": [
   {
    "title": "Just Enough Time to Deliver the Message",
    "desc": "Justin Case and Auntie Bellum are fellow con artists who deliver coded messages to each other to communicate. Recently Auntie Bellum was put in jail for stealing a rare and expensive diamond. Only a few days after this, Justin Case sent her a friendly letter asking her how she was. On the inside of the envelope of the letter, he hid a code. Yesterday, Auntie Bellum escaped and left the envelope and the letter inside the jail cell. The police did some research and found the code on the inside of the envelope, but they haven't been able to crack it. Could you help the police find out what the message is?\nThis is the code:\nllwatchawtfeclocklnisksundialcirbetimersool",
@@ -88,4 +89,5 @@
    "answer": "I put down my book, The Meaning of Zen, and see the cat smiling into her fur as she delicately combs it with her rough pink tongue.\nCat, I would lend you this book to study but it appears you have already read it.\nShe looks up and gives me her full gaze.\nDon't be ridiculous, she purrs, I wrote it.\n- from \"Miao\" by Dilys Laing\nHow nice it is to think that feline dreams, like our own, are painted with creative brush strokes from time to time. Perhaps my cats and I even share the same dream: a world where all kittens are wanted and loved, and where every cat has a safe, warm place to sleep...and to dream. - Barbara L. Diamond\nEncrypted-Unencrypted\nA=E\nB=J\nC=R\nD=X\nE=M\nF=P\nG=A\nH=S\nI=W\nJ=H\nK=U\nL=B\nM=K\nN=I\nO=L\nP=C\nQ=N\nR=T\nS=F\nT=V\nU=D\nV=Z\nW=O\nX=Y\nY=G\nZ=Q",
    "hint": "Encryped-Unencrypted\nM=K\nE=M\nO=L\nW=O"
   }
-]
+ ]
+}

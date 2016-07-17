@@ -11,18 +11,17 @@
 		6D969D3D1D2E8B5100CBF8C4 /* enigma.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D3C1D2E8B5100CBF8C4 /* enigma.png */; };
 		6D969D471D2FDCF400CBF8C4 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D461D2FDCF400CBF8C4 /* defaultPhoto.png */; };
 		6D969D4B1D312C4F00CBF8C4 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D969D4A1D312C4F00CBF8C4 /* CategoryTableViewController.swift */; };
-		6D969D4F1D312D5400CBF8C4 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D969D4E1D312D5400CBF8C4 /* Categories.swift */; };
-		6D969D511D312F7B00CBF8C4 /* Categories in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D501D312F7B00CBF8C4 /* Categories */; };
+		6D969D4F1D312D5400CBF8C4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D969D4E1D312D5400CBF8C4 /* Category.swift */; };
+		6D969D511D312F7B00CBF8C4 /* Category Thumbnails in Resources */ = {isa = PBXBuildFile; fileRef = 6D969D501D312F7B00CBF8C4 /* Category Thumbnails */; };
 		6DA2B2FE1D31B00000427875 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA2B2FC1D31B00000427875 /* Fabric.framework */; };
 		6DA2B2FF1D31B00000427875 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA2B2FD1D31B00000427875 /* Crashlytics.framework */; };
 		6DA3932A1D2E6FED00D66D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA393291D2E6FED00D66D18 /* AppDelegate.swift */; };
-		6DA3932C1D2E6FED00D66D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3932B1D2E6FED00D66D18 /* ViewController.swift */; };
 		6DA3932F1D2E6FED00D66D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3932D1D2E6FED00D66D18 /* Main.storyboard */; };
 		6DA393321D2E6FED00D66D18 /* enigma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DA393301D2E6FED00D66D18 /* enigma.xcdatamodeld */; };
 		6DA393341D2E6FED00D66D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA393331D2E6FED00D66D18 /* Assets.xcassets */; };
 		6DA393371D2E6FED00D66D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA393351D2E6FED00D66D18 /* LaunchScreen.storyboard */; };
-		6DE08A141D364E4200E1E000 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 6DE08A131D364E4200E1E000 /* Data */; };
-		6DE08A161D36833000E1E000 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE08A151D36833000E1E000 /* Info.swift */; };
+		6DE08A141D364E4200E1E000 /* Category JSONs in Resources */ = {isa = PBXBuildFile; fileRef = 6DE08A131D364E4200E1E000 /* Category JSONs */; };
+		6DE08A161D36833000E1E000 /* Enigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE08A151D36833000E1E000 /* Enigma.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,20 +29,19 @@
 		6D969D3C1D2E8B5100CBF8C4 /* enigma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enigma.png; path = Images/enigma.png; sourceTree = "<group>"; };
 		6D969D461D2FDCF400CBF8C4 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultPhoto.png; path = Images/defaultPhoto.png; sourceTree = "<group>"; };
 		6D969D4A1D312C4F00CBF8C4 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryTableViewController.swift; path = ../CategoryTableViewController.swift; sourceTree = "<group>"; };
-		6D969D4E1D312D5400CBF8C4 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
-		6D969D501D312F7B00CBF8C4 /* Categories */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Categories; path = Images/Categories; sourceTree = "<group>"; };
+		6D969D4E1D312D5400CBF8C4 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		6D969D501D312F7B00CBF8C4 /* Category Thumbnails */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Category Thumbnails"; path = "Images/Category Thumbnails"; sourceTree = "<group>"; };
 		6DA2B2FC1D31B00000427875 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		6DA2B2FD1D31B00000427875 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		6DA393261D2E6FED00D66D18 /* enigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA393291D2E6FED00D66D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DA3932B1D2E6FED00D66D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DA3932E1D2E6FED00D66D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DA393311D2E6FED00D66D18 /* enigma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = enigma.xcdatamodel; sourceTree = "<group>"; };
 		6DA393331D2E6FED00D66D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DA393361D2E6FED00D66D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA393381D2E6FED00D66D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DE08A131D364E4200E1E000 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
-		6DE08A151D36833000E1E000 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		6DE08A131D364E4200E1E000 /* Category JSONs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Category JSONs"; sourceTree = "<group>"; };
+		6DE08A151D36833000E1E000 /* Enigma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enigma.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,7 @@
 		6D969D3B1D2E8B3B00CBF8C4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				6D969D501D312F7B00CBF8C4 /* Categories */,
+				6D969D501D312F7B00CBF8C4 /* Category Thumbnails */,
 				6D969D461D2FDCF400CBF8C4 /* defaultPhoto.png */,
 				6D969D3C1D2E8B5100CBF8C4 /* enigma.png */,
 			);
@@ -86,23 +84,22 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
-		6D969D581D31390100CBF8C4 /* Controller */ = {
+		6D969D581D31390100CBF8C4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				6D3EE84D1D31548B00AA3479 /* SingleCategoryViewController.swift */,
 				6D969D4A1D312C4F00CBF8C4 /* CategoryTableViewController.swift */,
-				6DA3932B1D2E6FED00D66D18 /* ViewController.swift */,
 			);
-			name = Controller;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		6D969D591D31391500CBF8C4 /* Model */ = {
+		6D969D591D31391500CBF8C4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6D969D4E1D312D5400CBF8C4 /* Categories.swift */,
-				6DE08A151D36833000E1E000 /* Info.swift */,
+				6D969D4E1D312D5400CBF8C4 /* Category.swift */,
+				6DE08A151D36833000E1E000 /* Enigma.swift */,
 			);
-			name = Model;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		6D969D5A1D31394200CBF8C4 /* Supporting Files */ = {
@@ -117,7 +114,7 @@
 		6D969D5B1D31395200CBF8C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6DE08A131D364E4200E1E000 /* Data */,
+				6DE08A131D364E4200E1E000 /* Category JSONs */,
 				6DA393331D2E6FED00D66D18 /* Assets.xcassets */,
 				6DA393301D2E6FED00D66D18 /* enigma.xcdatamodeld */,
 			);
@@ -147,8 +144,8 @@
 			children = (
 				6D969D571D3138EF00CBF8C4 /* Storyboard */,
 				6D969D561D3138D400CBF8C4 /* App */,
-				6D969D581D31390100CBF8C4 /* Controller */,
-				6D969D591D31391500CBF8C4 /* Model */,
+				6D969D581D31390100CBF8C4 /* Controllers */,
+				6D969D591D31391500CBF8C4 /* Models */,
 				6D969D5B1D31395200CBF8C4 /* Resources */,
 				6D969D5A1D31394200CBF8C4 /* Supporting Files */,
 			);
@@ -215,13 +212,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D969D511D312F7B00CBF8C4 /* Categories in Resources */,
+				6D969D511D312F7B00CBF8C4 /* Category Thumbnails in Resources */,
 				6D969D471D2FDCF400CBF8C4 /* defaultPhoto.png in Resources */,
 				6DA393371D2E6FED00D66D18 /* LaunchScreen.storyboard in Resources */,
 				6DA393341D2E6FED00D66D18 /* Assets.xcassets in Resources */,
 				6D969D3D1D2E8B5100CBF8C4 /* enigma.png in Resources */,
 				6DA3932F1D2E6FED00D66D18 /* Main.storyboard in Resources */,
-				6DE08A141D364E4200E1E000 /* Data in Resources */,
+				6DE08A141D364E4200E1E000 /* Category JSONs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,13 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA3932C1D2E6FED00D66D18 /* ViewController.swift in Sources */,
 				6DA393321D2E6FED00D66D18 /* enigma.xcdatamodeld in Sources */,
 				6D3EE84E1D31548B00AA3479 /* SingleCategoryViewController.swift in Sources */,
 				6DA3932A1D2E6FED00D66D18 /* AppDelegate.swift in Sources */,
 				6D969D4B1D312C4F00CBF8C4 /* CategoryTableViewController.swift in Sources */,
-				6D969D4F1D312D5400CBF8C4 /* Categories.swift in Sources */,
-				6DE08A161D36833000E1E000 /* Info.swift in Sources */,
+				6D969D4F1D312D5400CBF8C4 /* Category.swift in Sources */,
+				6DE08A161D36833000E1E000 /* Enigma.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
