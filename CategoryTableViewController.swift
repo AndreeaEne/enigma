@@ -22,7 +22,7 @@ class CategoriesTableViewController: UIViewController, UITableViewDataSource, UI
         super.viewDidLoad()
 		
 		Fabric.with([Crashlytics.self])
-		
+
 		// Populate data
 		for name in names {
 			categories.append(Category(name))
@@ -56,24 +56,6 @@ class CategoriesTableViewController: UIViewController, UITableViewDataSource, UI
 		// Row height
 		return 60.0
 	}
-	
-//	func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//		// On tap
-//		
-//		let currentCell = tableView.cellForRowAtIndexPath(indexPath)! as UITableViewCell
-//		
-//		print("You selected cell \(currentCell.textLabel!.text)!")
-//	
-//		let ref = SingleCategoryViewController()
-//		var enigmas = categories[indexPath.row].enigmas
-//		
-////		ref.selectedCateg = currentCell.textLabel!.text!
-////		ref.getJSON((currentCell.textLabel?.text!.lowercaseString)!)
-//		
-////		print("You selected cell #\(indexPath.row)!")
-//	}
-	
-	
 
 	
 	//MARK:- Prepare Segue
@@ -84,7 +66,9 @@ class CategoriesTableViewController: UIViewController, UITableViewDataSource, UI
 			let selectedRow = tableView.indexPathForCell(cell)?.item
 			let destination = segue.destinationViewController as! SingleCategoryViewController
 			
-			destination.NavigationItem.title = categories[selectedRow!].name // set title
+			let category = categories[selectedRow!]
+			destination.NavigationItem.title = category.name // set title
+			destination.enigmas = category.enigmas // contents
 			
 		}
 	}
