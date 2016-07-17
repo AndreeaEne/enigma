@@ -9,9 +9,8 @@
 import UIKit
 
 class Category {
- 
-	let name:String
-	let imageName:String
+	let name:      String
+	let imageName: String
 	var image: UIImage {
 		get {
 			return UIImage(named: imageName)!
@@ -25,14 +24,15 @@ class Category {
 		self.imageName = "Category Thumbnails/" + name.lowercaseString
 		
 		self.enigmas = []
+		// Parse json
 		let url = NSBundle.mainBundle().URLForResource("Category JSONs/" + name.lowercaseString, withExtension: "json")
 		let enigmasBlob = NSData(contentsOfURL: url!)
 		do {
 			let json = try NSJSONSerialization.JSONObjectWithData(enigmasBlob!, options: .AllowFragments)
-			let dictionary = json as! [String: [Dictionary<String, String>]]
+			let dictionary = json as! [String: [Dictionary<String, String>]] // { enigmas: [ {title, hint}, {title, hint} ]
 			
 			for dict in dictionary["enigmas"]! {
-				self.enigmas.append(Enigma(dict: dict))
+				self.enigmas.append(Enigma(dict))
 			}
 		} catch {
 			print("Error parsing enigmas JSON for \(name): \(error)")

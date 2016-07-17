@@ -9,21 +9,20 @@
 import UIKit
 
 class Enigma {
-	let title:String
-	let description:String
-	let hint:String
-	let answer:String
-	
+	let title:       String
+	let description: String
+	let hint:		 String
+	let answer:		 String
 	
 	init(title: String, description: String, hint: String, answer: String) {
 		self.title = title
 		self.description = description
 		self.hint = hint
 		self.answer = answer
-		
 	}
 	
-	convenience init(dict: Dictionary<String, AnyObject>) {
+	convenience init(_ dict: Dictionary<String, AnyObject>) {
+		// Some enigmas do not have a hint
 		var hintVal = dict["hint"] as? String
 		if (hintVal == nil) {
 			hintVal = ""
@@ -34,20 +33,4 @@ class Enigma {
 		          hint:        hintVal!,
 				  answer:	   dict["answer"] as! String)
 	}
-	
-//	convenience init(name: String) {
-//		
-//		
-//		
-//		do {
-//			let object = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
-//			let dictionary = object as! [String: String]
-//			self.init(title:	   dictionary["title"]!,
-//					  description: dictionary["desc"]!,
-//			          hint:        dictionary["hint"]!,
-//					  answer:	   dictionary["answer"]!)
-//		} catch {
-//			self.init(title: "Error", description: "error", hint: "error", answer: "error")
-//			print("Failed to init Enigma: \(error)")
-//		}
-	}
+}
